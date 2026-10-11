@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <title>TANTANGAN</title>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Titian</a>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#t1">Tantangan</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="choose"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero section start -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Mari menyelesaikan tantangan <span>Titian</span></h1>
+            <p>Ayo, kerjakan setiap tantangan untuk menguji pemahamanmu!</p>
+            <a href="#t1" class="cta">Mulai</a>
+        </main>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Section Tantangan Start-->
+    <form id="formTantangan">
+        <section id="t1" class="t1-section">
+            <div class="question">
+                <!-- Nama -->
+                <div class="question-card">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                    <div id="nama_response"></div>
+                </div>
+            </div>
+            <h2>Ayo Membaca dan Berpikir!</h2>
+            <h3>Petualangan Tiga Pulau</h3>
+            <p>Saat liburan sekolah, Farah pergi berwisata ke sebuah kawasan tiga pulau bersama keluarganya. Di sana
+                terdapat tiga pulau kecil, yaitu Pulau Siana, Sinur, dan Sirama. Masing-masing pulau dihubungkan oleh
+                jembatan kayu memanjang, kecuali dari Pulau Sinur ke Pulau Sirama.</p>
+            <p>Farah bermalam di Pulau Sinur. Namun, Dia melihat bahwa belum ada jembatan yang menghubungkan pulau
+                tersebut
+                dengan Pulau Sirama. Farah pun berpikir untuk membantu membangun jembatan agar penduduk setempat dan
+                pengunjung dapat menuju pulau tersebut dengan lebih mudah tanpa harus melewati Pulau Siana terlebih
+                dahulu.
+            </p>
+            <p>Dari hasil pengamatannya, Farah mengetahui bahwa jembatan disusun dari balok kayu yang kira-kira memiliki
+                panjang 1 m dan lebar 30 cm. Balok-balok kayu tersebut ditata dengan sisi selebar 30 cm searah dengan
+                panjang jembatan. Dia menghitung bahwa jembatan dari Pulau Sinur ke Pulau Siana terdiri atas 150 balok
+                kayu,
+                sedangkan jembatan dari Pulau Siana ke Pulau Sirama terdiri atas 80 balok kayu. Kedua jembatan tersebut
+                bertemu di Pulau Siana dan membentuk sudut siku-siku.</p>
+            <p>Kemudian, Dia mencoba untuk berkomunikasi dengan penduduk setempat untuk mengusulkan sarannya agar dapat
+                dibangun jembatan yang menghubungkan Pulau Sinur ke Pulau Sirama. Ada salah satu penduduk yang bertanya,
+                “Kalau begitu, jika jembatan yang ingin dibangun menggunakan balok kayu dengan ukuran dan susunan yang
+                sama,
+                berapa banyak balok kayu yang dibutuhkan untuk membangun jembatan tersebut?”.</p>
+            <p>Farah masih bingung menjawabnya karena Dia belum mengetahui jarak antara Pulau Sinur ke Pulau Sirama.
+                Bantulah Farah untuk menghitung jarak kedua pulau tersebut dan menentukan banyaknya balok kayu yang
+                dibutuhkan untuk membangun jembatan itu!</p>
+
+            <div class="question">
+                <!-- Soal 1 -->
+                <div class="question-card">
+                    <label for="soal1">1. Apa saja informasi yang diberikan dalam permasalahan tersebut?</label><br>
+                    Jawab: <input type="text" id="jawaban1" name="soal1" required>
+                    <div id="jawaban1_response"></div>
+                </div>
+
+                <!-- Soal 2 -->
+                <div class="question-card">
+                    <label for="soal2">2. Apa yang perlu ditentukan untuk menjawab pertanyaan penduduk
+                        setempat??</label><br>
+                    Jawab: <input type="text" id="jawaban2" name="soal2" required>
+                    <div id="jawaban2_response"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="t2" class="t2-section">
+            <h2>Ayo Mengeksplorasi dan Merencanakan!</h2>
+            <div class="question">
+                <!-- Soal 3 -->
+                <div class="question-card">
+                    <label for="soal3">3. Bagaimana kamu merepresentasikan hubungan posisi ketiga pulau berdasarkan
+                        informasi dalam permasalahan tersebut?</label><br>
+                    Jawab: <input type="text" id="jawaban3" name="soal3" required>
+                    <div id="jawaban3_response"></div>
+                </div>
+
+                <!-- Soal 4 -->
+                <div class="question-card">
+                    <label for="soal4">4. Informasi apa yang masih perlu kamu tentukan sebelum menghitung jumlah balok
+                        kayu
+                        yang dibutuhkan?</label><br>
+                    Jawab: <input type="text" id="jawaban4" name="soal4" required>
+                    <div id="jawaban4_response"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="t3" class="t3-section">
+            <h2>Pilih Strategi!</h2>
+            <div class="question">
+                <!-- Soal 5 -->
+                <div class="question-card">
+                    <label for="soal5">5. Bagaimana cara yang kamu pilih untuk menentukan panjang jembatan langsung dari
+                        Pulau Sinur ke Pulau Sirama?</label><br>
+                    Jawab: <input type="text" id="jawaban5" name="soal5" required>
+                    <div id="jawaban5_response"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="t4" class="t4-section">
+            <h2>Temukan Jawaban!</h2>
+            <div class="question">
+                <!-- Soal 6 -->
+                <div class="question-card">
+                    <label for="soal6">6. Berapa panjang jembatan langsung dari Pulau Sinur ke Pulau Sirama? Tuliskan
+                        perhitunganmu.</label><br>
+                    Jawab: <input type="text" id="jawaban6" name="soal6" required>
+                    <div id="jawaban6_response"></div>
+                </div>
+
+                <!-- Soal 7 -->
+                <div class="question-card">
+                    <label for="soal7">7. Berapa banyak balok kayu yang dibutuhkan untuk membangun jembatan tersebut?
+                        Tuliskan perhitunganmu.</label><br>
+                    Jawab: <input type="text" id="jawaban7" name="soal7" required>
+                    <div id="jawaban7_response"></div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="t5" class="t5-section">
+            <h2>Ayo Merefleksi dan Mengembangkan!</h2>
+            <div class="question">
+                <!-- Soal 8 -->
+                <div class="question-card">
+                    <label for="soal8">8. Bagaimana kamu memastikan bahwa hasil perhitungan panjang jembatan dari Pulau
+                        Sinur ke Pulau Sirama sudah benar?</label><br>
+                    Jawab: <input type="text" id="jawaban8" name="soal8" required>
+                    <div id="jawaban8_response"></div>
+                </div>
+                <!-- Soal 9 -->
+                <div class="question-card">
+                    <label for="soal7">Mengembangkan: Rancanglah kerangka pegangan jembatan pada aktivitas berikut
+                        dengan
+                        memasang balok-balok kayu melalui fitur drag-and-drop. Susun balok-balok tersebut hingga
+                        membentuk
+                        kerangka yang kokoh dan menarik dengan memperhatikan hubungan panjang sisi-sisi segitiga
+                        siku-siku
+                        berdasarkan Teorema Pythagoras.</label><br>
+                </div>
+                <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+                    <iframe loading="lazy"
+                        style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                        src="https://www.canva.com/design/DAHXiPlzC0Q/U0jR2MLAggbN_4u_g0kVFw/view?embed"
+                        allowfullscreen="allowfullscreen" allow="fullscreen">
+                    </iframe>
+                </div>
+                <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHXiPlzC0Q&#x2F;U0jR2MLAggbN_4u_g0kVFw&#x2F;view?utm_content=DAHXiPlzC0Q&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                    target="_blank" rel="noopener"></a>
+                <p>Catatan: Ambil tangkapan layar (screenshot) desain kerangka jembatanmu sebelum melanjutkan ke
+                    aktivitas selanjutnya.</p>
+            </div>
+            <!-- Tombol Kirim -->
+            <div class="button">
+                <button class="btn-kirim" onclick="">Kirim Jawaban</button>
+            </div>
+        </section>
+    </form>
+    <!-- TOMBOL KEMBALI KE MEDIA TITIAN -->
+    <div class="back">
+        <a href="MEDIA TITIAN.html#menu" class="cta btn-back">
+            Kembali ke Menu Utama
+        </a>
+    </div>
+
+    <!-- Script Pengiriman Data ke Google Sheets -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxgDBKlVkYa3yhD9HGzi-RfUiFBn4V1MTSVoDFW4wNE2M6X4i6gBsfniaSLARJXX-jY/exec';
+        const form = document.getElementById('formTantangan');
+        // Sesuaikan ID dengan yang ada di HTML kamu (menggunakan tanda hubung)
+        const btnKirim = document.getElementById('btn-kirim');
+
+        if (form) {
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                if (btnKirim) {
+                    btnKirim.disabled = true;
+                    btnKirim.innerText = "Mengirim...";
+                }
+
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        alert('Jawaban kamu berhasil terkirim!');
+                        form.reset();
+                        if (btnKirim) {
+                            btnKirim.disabled = false;
+                            btnKirim.innerText = "Kirim Jawaban";
+                        }
+                    })
+                    .catch(error => {
+                        alert('Gagal mengirim jawaban. Coba lagi!');
+                        if (btnKirim) {
+                            btnKirim.disabled = false;
+                            btnKirim.innerText = "Kirim Jawaban";
+                        }
+                    });
+            });
+        }
+    </script>
+
+    <!-- Feather Icons -->
+    <script>
+        feather.replace();
+    </script>
+
+
+    <!-- My Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
