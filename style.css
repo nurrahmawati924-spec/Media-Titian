@@ -534,7 +534,7 @@ footer .credits a {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     background-image: url(GAMBAR-TANTANGAN.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     background-size: 90%;
     background-position: center;
     position: relative;
